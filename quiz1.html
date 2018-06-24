@@ -1,1 +1,122 @@
+ <!DOCTYPE>
+
+<!-- Quiz app: v.0.1 -->
+<!-- Idea for v.0.2: Challenge: make a counter to go with the quiz. To be able to do this: Learn JavaScript conditions (If...Else Statements), and learn increment and decrement. Use variables (x = ;, etc.). -->
+<html>
+    <head>
+        
+        <style>
+            h1 {
+                text-align: center;
+            }
+        </style>
+        
+        
+    </head>
+    
+    <body>
+        
+        <h1>Quiz about Sweden!
+        </h1>
+        
+        <br />
+        
+        <h2>1. What is the name of Sweden's capital?
+        </h2>
+        
+        <button type = "button" onclick = "wrong1()">Malmo
+        </button>
+        
+        <button type = "button" onclick = "correct1()">Stockholm
+        </button>
+        
+        <button type = "button" onclick = "wrong1()">Gothenburg
+        </button>
+        
+        <p id = "result1">
+        </p>
+        
+        
+        <script> /* Script for question 1 starts here*/
+            function wrong1() {
+                document.getElementById("result1").innerHTML = "Wrong!";
+            }
+        function correct1() {
+            document.getElementById("result1").innerHTML = "Correct!";
+        }
+        
+            </script>
+        
+        
+        
+        <br />
+        
+        
+        
+        <h2>2. Which countries does Sweden share a border with?
+        </h2>
+        
+        <button type = "button" onclick = "correct2()">Norway and Finland
+        </button>
+        
+        <button type = "button" onclick = "wrong2()">Finland and Russia
+        </button>
+        
+        <button type = "button" onclick = "wrong2()">Denmark and Norway
+        </button>
+        
+        <p id = "result2">
+        </p>
+        
+        
+        <script> /* Script for question 2 starts here*/
+            function wrong2() {
+                document.getElementById("result2").innerHTML = "Wrong!";
+            }
+        function correct2() {
+            document.getElementById("result2").innerHTML = "Correct!";
+        }
+        
+            </script>
+        
+        
+        
+        <br />
+        
+        
+        
+        <h2>3. How big is Sweden's population?
+        </h2>
+        
+        <button type = "button" onclick = "wrong3()">5 milion
+        </button>
+        
+        <button type = "button" onclick = "correct3()()">10 milion
+        </button>
+        
+        <button type = "button" onclick = "wrong3()">20 milion
+        </button>
+        
+        <p id = "result3">
+        </p>
+        
+        
+        <script> /* Script for question 3 starts here*/
+            function wrong3() {
+                document.getElementById("result3").innerHTML = "Wrong!";
+            }
+        function correct3() {
+            document.getElementById("result3").innerHTML = "Correct!";
+        }
+        
+            </script>
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
+
 
